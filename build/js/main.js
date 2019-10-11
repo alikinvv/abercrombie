@@ -88,3 +88,21 @@ $('body').on('click', '.view__images div', (e) => {
 $('body').on('click', '.view__sizes-list div', (e) => {
     $(e.currentTarget).toggleClass('active');
 });
+
+$('body').on('click', '.modal__controls button', (e) => {
+    e.preventDefault();
+    $(e.currentTarget).addClass('active').html('<svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Товар в корзине</span>');
+});
+
+$('body').on('change', '.modal__controls select', (e) => {
+    $('.modal__controls .count').text($(e.currentTarget).val());
+});
+
+$('body').on('click', '.view .modal__controls button', (e) => {
+    $(e.currentTarget).addClass('active').html('<svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Товар в корзине</span>');
+    $('.add-cart').addClass('active');
+
+    setTimeout(() => {
+        $('.add-cart').removeClass('active');
+    }, 2500);
+});

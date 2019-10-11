@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+</head>
+<body>
+
+<header class="header">
+    <div class="header__top">
+        <div class="container">
+            <a href="/" class="header__logo"><img src="img/logo-white.png" width="25" alt=""></a>
+            <div class="header__top-info">
+                <div class="header__special">
+                    <span> Скидка до 50% + Бесплатная доставка при заказах свыше 10,000₽</span>
+                    <a href="javascript:void(0)">Подробнее</a>
+                </div>
+                <nav class="header__nav">
+                    <a href="javascript:void(0)"><span>Мужчинам</span><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                    <a href="javascript:void(0)"><span>Женщинам</span><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="header__main">
+        <div class="container">
+            <div class="header__left">
+                <a href="/" class="header__logo"><img width="202" src="img/logo.svg" alt=""></a>
+
+                <ul class="menu">
+                    <li>
+                        <a href="javascript:void(0)"><span>Мужчинам</span></a>
+                        <div class="dropdown">
+                            <div class="dropdown__col">
+                                <p class="dropdown__title">Категории</p>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)"><span>Новинки</span></a>
+                                    <a href="javascript:void(0)"><span>Куртки</span></a>
+                                    <a href="javascript:void(0)"><span>Нижнее белье</span></a>
+                                    <a href="javascript:void(0)"><span>Футболки</span></a>
+                                    <a href="javascript:void(0)"><span>Обувь и аксессуары</span></a>
+                                    <a href="javascript:void(0)"><span>Парфюм</span></a>
+                                </nav>
+                            </div>
+                            <div class="dropdown__col">
+                                <p class="dropdown__title">Коллекции</p>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)"><span>SoftAF</span></a>
+                                    <a href="javascript:void(0)"><span>96 Hour Getaway Essentials</span></a>
+                                    <a href="javascript:void(0)"><span>A&F Logo Shop</span></a>
+                                </nav>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)" class="red">Распродажа</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><span>Женщинам</span></a>
+                        <div class="dropdown">
+                            <div class="dropdown__col">
+                                <p class="dropdown__title">Категории</p>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)"><span>Новинки</span></a>
+                                    <a href="javascript:void(0)"><span>Куртки</span></a>
+                                    <a href="javascript:void(0)"><span>Нижнее белье</span></a>
+                                    <a href="javascript:void(0)"><span>Футболки</span></a>
+                                    <a href="javascript:void(0)"><span>Обувь и аксессуары</span></a>
+                                    <a href="javascript:void(0)"><span>Парфюм</span></a>
+                                </nav>
+                            </div>
+                            <div class="dropdown__col">
+                                <p class="dropdown__title">Коллекции</p>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)"><span>SoftAF</span></a>
+                                    <a href="javascript:void(0)"><span>96 Hour Getaway Essentials</span></a>
+                                    <a href="javascript:void(0)"><span>A&F Logo Shop</span></a>
+                                </nav>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)" class="red">Распродажа</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><span>Духи</span></a>
+                        <div class="dropdown">
+                            <div class="dropdown__col">
+                                <p class="dropdown__title">Категории</p>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)"><span>Новинки</span></a>
+                                    <a href="javascript:void(0)"><span>Куртки</span></a>
+                                    <a href="javascript:void(0)"><span>Нижнее белье</span></a>
+                                    <a href="javascript:void(0)"><span>Футболки</span></a>
+                                    <a href="javascript:void(0)"><span>Обувь и аксессуары</span></a>
+                                    <a href="javascript:void(0)"><span>Парфюм</span></a>
+                                </nav>
+                            </div>
+                            <div class="dropdown__col">
+                                <p class="dropdown__title">Коллекции</p>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)"><span>SoftAF</span></a>
+                                    <a href="javascript:void(0)"><span>96 Hour Getaway Essentials</span></a>
+                                    <a href="javascript:void(0)"><span>A&F Logo Shop</span></a>
+                                </nav>
+                                <nav class="dropdown__nav">
+                                    <a href="javascript:void(0)" class="red">Распродажа</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="header__controls">
+                <form action="">
+                    <input type="text">
+                    <svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg>
+                    <span>поиск</span>
+                </form>
+                <div class="header__links">
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span class="count">2</span></a>
+                    <div class="add-cart">
+                        <p>Товар <strong>Рубашка из поплина с принтом</strong> добавлен <br> в корзину.</p>
+                        <p>Ваш заказ: <strong>2 товара на сумму 4,880₽</strong></p>
+                        <a href="javascript:void(0)" class="btn">Перейти в корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- START CONTENT  -->
+
+<div class="breadcrumbs">
+    <div class="container">
+        <a href="javascript:void(0)">Мужчинам</a>
+        <a href="javascript:void(0)">Рубашки и футболки</a>
+    </div>
+</div>
+
+<section class="item">
+    <div class="container">
+        <div class="modal__sliders sliders">
+            <div class="sliders__nav">
+                <div class="item" style="background-image: url('../img/product7.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-2.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-3.jpg')"></div>
+                <div class="item" style="background-image: url('../img/slide4.jpg')"></div>
+                <div class="item" style="background-image: url('../img/slide5.jpg')"></div>
+                <div class="item" style="background-image: url('../img/slide6.jpg')"></div>
+            </div>
+            <div class="sliders__main">
+                <div class="item" style="background-image: url('../img/product7.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-2.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-3.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product4.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product3.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product2.jpg')"></div>
+            </div>
+        </div>
+        <div class="modal__info view">
+            <div class="modal__scroll">
+                <div class="view__top">
+                    <div class="view__name">Рубашка из поплина с
+                            принтом</div>
+                    <div class="view__list">
+                        <span>Signature Fit</span>
+                        <span>Только Онлайн</span>
+                    </div>
+                    <div class="view__price">3,851₽</div>
+                </div>
+                <div class="view__thumbs">
+                    <p>Принт в красный и темно-синий цветок</p>
+    
+                    <div class="view__images">
+                        <div class="active" style="background-image: url('../img/product1.jpg')"></div>
+                        <div style="background-image: url('../img/product2.jpg')"></div>
+                        <div style="background-image: url('../img/product3.jpg')"></div>
+                        <div style="background-image: url('../img/product4.jpg')"></div>
+                        <div style="background-image: url('../img/product5.jpg')"></div>
+                        <div style="background-image: url('../img/product6.jpg')"></div>
+                    </div>
+                </div>
+    
+                <div class="view__sizes">
+                    <p><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg> <span>Успей купить! Осталось пару штук</span></p>
+    
+                    <span class="view__sizes-name">Ширина</span>
+                    <div class="view__sizes-list">
+                        <div class="active">XS</div>
+                        <div>S</div>
+                        <div>M</div>
+                        <div>L</div>
+                        <div class="disable">XL</div>
+                        <div class="disable">XXL</div>
+                        <div>S</div>
+                        <div>M</div>
+                        <div>L</div>
+                    </div>
+
+                    <span class="view__sizes-name">Длинна</span>
+                    <div class="view__sizes-list">
+                        <div>XS</div>
+                        <div>S</div>
+                        <div class="disable">M</div>
+                    </div>
+
+                    <div class="view__links">
+                        <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подобрать размер</span></a>
+                        <a href="javascript:void(0)"><span>Наши посадки</span></a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="modal__controls">
+                <span class="desc">Бесплатная доставка при заказе от 10,000₽ </span>
+
+                <div class="errors">
+                    <span>Выберите размер</span>
+                </div>
+
+                <form action="">
+                    <div>
+                        <select id="quantity">
+                            <optgroup label="Кол-во">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </optgroup>
+                        </select>
+                        <span class="name">Кол-во</span>
+                        <span class="count">1</span>
+                        <svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg>
+                    </div>
+                    <button>Добавить в корзину</button>
+                </form>
+    
+                <div class="view__links">
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранном!</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="description">
+    <div class="container">
+        <img src="img/product7.jpg" alt="">
+        <div class="description__info">
+            <p class="description__name">Описание товара</p>
+            <p>Soft and breathable short-sleeve button-up shirt in lightweight cotton featuring classic collar, left chest pocket and logo tag on placket. Imported</p>
+            <p><strong>Model is 6'1" wearing Size M</strong></p>
+            <p>Body Length: 30.2"</p>
+            <p class="description__title">Material and Care</p>
+            <ul>
+                <li>100% Cotton</li>
+                <li>Machine wash cold, with like colors
+                        Only non-chlorine bleach</li>
+                <li>Tumble dry low</li>
+                <li>Warm iron if needed</li>
+                <li>Do not dry clean</li>
+            </ul>
+
+            <div class="view__links">
+                <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg> <span>Подобрать размер</span></a>
+                <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg> <span>Доставка и оплата</span></a>
+            </div>
+
+            <div class="description__bottom">
+                <span>Артикул: 266184/131-9211-1724-279</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products no-padding">
+    <div class="container">
+        <h2>Похожие товары</h2>
+
+        <div class="products__list slider">
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product1.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price"><span class="old">3,851₽</span><span class="new">3,851₽</span></div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product2.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product3.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product4.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product1.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price"><span class="old">3,851₽</span><span class="new">3,851₽</span></div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product2.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product3.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product4.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products no-padding">
+    <div class="container">
+        <h2>С этим товаром покупают</h2>
+
+        <div class="products__list slider">
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product1.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price"><span class="old">3,851₽</span><span class="new">3,851₽</span></div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product2.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product3.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product4.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product1.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price"><span class="old">3,851₽</span><span class="new">3,851₽</span></div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product2.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product3.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product4.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <div class="product__price">3,851₽</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="products gray">
+    <div class="container">
+        <h2>Просмотренные</h2>
+
+        <div class="products__list slider">
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product1.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product2.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product3.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product4.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product1.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product2.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product3.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+            <div class="product">
+                <a href="javascript:void(0)" class="product__img" style="background-image: url('img/product4.jpg')">
+                    <div class="product__cover" style="background-image: url('img/product7-2.jpg')"></div>
+                    <div class="product__controls">
+                        <div class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>В избранное</span></div>
+                        <div data-modal="view" class="product__btn"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Подробнее</span></div>
+                    </div>
+                </a>
+                <p class="product__name">Рубашка из поплина</p>
+                <span>Signature Fit | Только Онлайн</span>
+                <div class="product__price">3,851₽</div>
+                <div class="product__badge">new!</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- END CONTENT  -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__row">
+            <div class="footer__col">
+                <img src="img/logo.svg" alt="" width="149" class="footer__logo">
+
+                <div class="footer__brands">
+                    <span>Наши бренды</span>
+                    <img src="img/logo.svg" width="129" alt="">
+                    <img src="img/hoolister.svg" width="67" alt="">
+                </div>
+            </div>
+            <div class="footer__col">
+                <p class="footer__title">Компания</p>
+                
+                <ul>
+                    <li><a href="javascript:void(0)">О компании</a></li>
+                    <li><a href="javascript:void(0)">Возврат</a></li>
+                    <li><a href="javascript:void(0)">Новости</a></li>
+                    <li><a href="javascript:void(0)">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <div class="footer__col">
+                    <p class="footer__title">Помощь</p>
+                    
+                    <ul>
+                        <li><a href="javascript:void(0)">Помощь клиенту</a></li>
+                        <li><a href="javascript:void(0)">Помощь с заказами</a></li>
+                        <li><a href="javascript:void(0)">Возвраты</a></li>
+                        <li><a href="javascript:void(0)">Отслеживание заказа</a></li>
+                        <li><a href="javascript:void(0)">Оплата</a></li>
+                        <li><a href="javascript:void(0)">Мой аккаунт</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__col">
+                <div class="footer__links">
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg> <span>Подарочные карты</span></a>
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg> <span>Наши магазины</span></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <form action="">
+                    <p>Подпишитесь на рассылку</p>
+                    <div class="form-group">
+                        <input type="email" placeholder="Ваш Email для новостей">
+                        <button>ОК</button>
+                    </div>
+                </form>
+                <div class="footer__social">
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__row bottom">
+            <div class="footer__nav">
+                <span>© 2019 Abercrombie.ru</span>
+                <a href="javascript:void(0)">Политика конфидециальности</a>
+                <a href="javascript:void(0)">Условия пользования сайтом</a>
+            </div>
+
+            <span>Создание сайта <a href="javascript:void(0)">MondayStudio.ru</a></span>
+        </div>
+    </div>
+</footer>
+
+<div class="scrolltop"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></div>
+
+<div class="modals">
+    <div class="modal modal-view" data-modal="view">
+        <div class="modal__close"></div>
+        <div class="modal__sliders sliders">
+            <div class="sliders__nav">
+                <div class="item" style="background-image: url('../img/product7.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-2.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-3.jpg')"></div>
+                <div class="item" style="background-image: url('../img/slide4.jpg')"></div>
+                <div class="item" style="background-image: url('../img/slide5.jpg')"></div>
+                <div class="item" style="background-image: url('../img/slide6.jpg')"></div>
+            </div>
+            <div class="sliders__main">
+                <div class="item" style="background-image: url('../img/product7.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-2.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product7-3.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product4.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product3.jpg')"></div>
+                <div class="item" style="background-image: url('../img/product2.jpg')"></div>
+            </div>
+        </div>
+        <div class="modal__info view">
+            <div class="modal__scroll">
+                <div class="view__top">
+                    <div class="view__name">Рубашка из поплина с
+                            принтом</div>
+                    <div class="view__list">
+                        <span>Signature Fit</span>
+                        <span>Только Онлайн</span>
+                    </div>
+                    <div class="view__price">3,851₽</div>
+                </div>
+                <div class="view__thumbs">
+                    <p>Принт в красный и темно-синий цветок</p>
+    
+                    <div class="view__images">
+                        <div class="active" style="background-image: url('../img/product1.jpg')"></div>
+                        <div style="background-image: url('../img/product2.jpg')"></div>
+                        <div style="background-image: url('../img/product3.jpg')"></div>
+                        <div style="background-image: url('../img/product4.jpg')"></div>
+                        <div style="background-image: url('../img/product5.jpg')"></div>
+                        <div style="background-image: url('../img/product6.jpg')"></div>
+                    </div>
+                </div>
+    
+                <div class="view__sizes">
+                    <p><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg> <span>Успей купить! Осталось пару штук</span></p>
+    
+                    <div class="view__sizes-list">
+                        <div class="active">XS</div>
+                        <div>S</div>
+                        <div>M</div>
+                        <div>L</div>
+                        <div class="disable">XL</div>
+                        <div class="disable">XXL</div>
+                    </div>
+                </div>
+                <p class="sidebar__title sort toggle">Подробнее о товаре</p>
+                <div class="toggle__body">
+                    <p>Soft and breathable short-sleeve button-up shirt in lightweight cotton featuring classic collar, left chest pocket and logo tag on placket. Imported</p>
+
+                    <p><strong>Model is 6'1" wearing Size M</strong></p>
+
+                    <p>Body Length: 30.2"</p>
+
+                    <p>Material and Care</p>
+
+                    <ul>
+                        <li>100% Cotton</li>
+                        <li>Machine wash cold, 
+                            with like colors</li>
+                        <li>Only non-chlorine</li>
+                        <li>Tumble dry low</li>
+                        <li>Warm iron if needed</li>
+                        <li>Do not dry clean</li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0)" class="btn more">Больше информации о товаре</a>
+            </div>
+
+            <div class="modal__controls">
+                <div class="errors">
+                    <span>Выберите размер</span>
+                </div>
+
+                <form action="">
+                    <div>
+                        <select id="quantity">
+                            <optgroup label="Кол-во">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </optgroup>
+                        </select>
+                        <span class="name">Кол-во</span>
+                        <span class="count">1</span>
+                        <svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg>
+                    </div>
+                    <button>Добавить в корзину</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
