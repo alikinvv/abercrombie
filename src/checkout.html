@@ -1,0 +1,125 @@
+//= template/header.html
+<!-- START CONTENT  -->
+
+<div class="cart checkout">
+    <div class="container">
+        <div class="cart__list">
+            <form action="">
+                <div class="checkout__order">
+                    <p>Оформление заказа</p>
+                    <div>
+                        <a href="javascript:void(0)" class="btn">Войти</a>
+                        <a href="javascript:void(0)" class="btn">Регистрация</a>
+                    </div>
+                </div>
+
+                <p class="checkout__title">Регион доставки</p>
+                <div class="checkout__input">
+                    <div class="form-group">
+                        <input type="text" placeholder="Местоположение">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Индекс">
+                    </div>
+                </div>
+
+                <p class="checkout__title">Доставка</p>
+                <div class="radio">
+                    <div class="form-group">
+                        <input id="1" type="radio" name="name">
+                        <label for="1"><span>Курьером</span><span>300₽</span></label>
+                    </div>
+                    <div class="form-group">
+                        <input id="2" type="radio" name="name">
+                        <label for="2"><span>Самовывоз</span><span>0₽</span></label>
+                    </div>
+                </div>
+                <div class="checkout__delivery">
+                    <span>Ближайшая доставка: Вторник, 22/08</span>
+                    <a href="javascript:void(0)">Доставка и оплата</a>
+                </div>
+
+                <p class="checkout__title">Доставка</p>
+                <img src="img/pay.png" alt="">
+
+                <p class="checkout__title">Данные покупателя</p>
+                <div class="checkout__input">
+                    <div class="form-group">
+                        <input type="text" placeholder="ФИО">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Телефон">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Адрес доставки">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Комментарий к заказу">
+                    </div>
+                </div>
+
+                <div class="checkout__region">
+                    <div class="form-group">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">Нажимая на кнопку “Оформить заказ”, я даю согласие на обработку моих персональных данных, в соответствии с Федеральным
+                        законом от 27.07.2006 года №152-ФЗ “О персональных данных”, на условиях и целей, определенных в Согласии на обработку
+                        персональных данных</label>
+                    </div>
+                </div>
+
+                <button>Оформить заказ</button>
+            </form>
+
+            <div class="checkout__help">
+                <p>Нужна помощь?</p>
+                <span><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg> Заказ #20282756565</span>
+            </div>
+        </div>
+
+        <div class="cart__sidebar">
+            <p class="cart__sidebar-title">Товары в заказе</p>
+            <div class="cart__item">
+                <img src="img/product7.jpg" alt="">
+                <div class="cart__info">
+                    <span class="cart__category">Мужчинам</span>
+                    <p class="cart__name">Рубашка из поплина</p>
+                    <ul>
+                        <li>Зеленый, M</li>
+                        <li><strong>3,851₽</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cart__item">
+                <img src="img/product7.jpg" alt="">
+                <div class="cart__info">
+                    <span class="cart__category">Мужчинам</span>
+                    <p class="cart__name">Рубашка из поплина</p>
+                    <ul>
+                        <li>Зеленый, M</li>
+                        <li><strong>3,851₽</strong></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer">
+                <form action="">
+                    <p>Введите код для скидки</p>
+                    <div class="form-group">
+                        <input type="email" placeholder="Введите промокод">
+                        <button>ОК</button>
+                    </div>
+                </form>
+            </div>
+            <div class="cart__total">
+                <p><span>Товаров на</span><span>9,929₽</span></p>
+                <p><span>Доставка</span><span>300₽</span></p>
+                <p><span>Итого</span><span>9,929₽</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- END CONTENT  -->
+//= template/footer.html

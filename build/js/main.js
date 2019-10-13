@@ -15,18 +15,18 @@ $('.products__list.slider').slick({
     swipe: false
 });
 
-$('.sliders .sliders__main').slick({
+$('.item .sliders .sliders__main').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
     fade: true,
-    asNavFor: '.sliders .sliders__nav',
+    asNavFor: '.item .sliders .sliders__nav',
     swipe: false
 });
-$('.sliders .sliders__nav').slick({
+$('.item .sliders .sliders__nav').slick({
     slidesToShow: 6,
     slidesToScroll: 1,
-    asNavFor: '.sliders .sliders__main',
+    asNavFor: '.item .sliders .sliders__main',
     dots: false,
     arrows: false,
     centerMode: false,
@@ -61,6 +61,28 @@ $('body').on('click', 'a[data-modal], div[data-modal]:not(.modal)', (e) => {
     $('.modal').removeClass('active');
     $('.modals').addClass('active');
     $('.modal[data-modal="' + $(e.currentTarget).attr('data-modal') + '"]').addClass('active');
+
+    if ($('.modal[data-modal="' + $(e.currentTarget).attr('data-modal') + '"]').hasClass('modal-view')) {
+        $('.modal[data-modal="' + $(e.currentTarget).attr('data-modal') + '"] .sliders .sliders__main').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.modal[data-modal="' + $(e.currentTarget).attr('data-modal') + '"] .sliders .sliders__nav',
+            swipe: false
+        });
+        $('.modal[data-modal="' + $(e.currentTarget).attr('data-modal') + '"] .sliders .sliders__nav').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            asNavFor: '.modal[data-modal="' + $(e.currentTarget).attr('data-modal') + '"] .sliders .sliders__main',
+            dots: false,
+            arrows: false,
+            centerMode: false,
+            focusOnSelect: true,
+            vertical: true,
+            swipe: false
+        });
+    }
 });
 
 $('body').on('click', '.modal__close', () => {
@@ -105,4 +127,18 @@ $('body').on('click', '.view .modal__controls button', (e) => {
     setTimeout(() => {
         $('.add-cart').removeClass('active');
     }, 2500);
+});
+
+$('body').on('click', '.enter__nav a:not(.active)', (e) => {
+    $('.enter__nav a').removeClass('active');
+    $('.enter__tab').removeClass('active');
+    $(e.currentTarget).addClass('active');
+
+    $('.enter__tab[data-tab="' + $(e.currentTarget).attr('data-tab') + '"]').addClass('active');
+});
+
+$('body').on('keyup', '.reset input', (e) => {
+    if ($(e.currentTarget).val() !== '') {
+        $('.reset button').addClass('active');
+    }
 });

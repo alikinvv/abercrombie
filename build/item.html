@@ -127,7 +127,7 @@
                     <span>поиск</span>
                 </form>
                 <div class="header__links">
-                    <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
+                    <a href="javascript:void(0)" data-modal="enter"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></a>
                     <a href="javascript:void(0)"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span class="count">2</span></a>
                     <div class="add-cart">
                         <p>Товар <strong>Рубашка из поплина с принтом</strong> добавлен <br> в корзину.</p>
@@ -671,6 +671,71 @@
 <div class="scrolltop"><svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg></div>
 
 <div class="modals">
+    <div class="modal reset-wrap" data-modal="reset">
+        <div class="modal__close"></div>
+
+        <form class="reset">
+            <svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg>
+            <p>Восстановление пароля</p>
+            <span>Если вы забыли пароль, введите логин или Email. Контрольная строка <br> для смены пароля, а также ваши регистрационные данные, будут <br> высланы вам по Email.</span>
+            <div class="checkout__input">
+                <div class="form-group">
+                    <input type="text" placeholder="Email">
+                </div>
+            </div>
+            <div class="enter__policy">
+                <a href="javascript:void(0)">Политика безопасности</a>
+                <a href="javascript:void(0)">Пользовательское соглашение</a>
+            </div>
+            <button>Восстановить пароль</button>
+        </form>
+    </div>
+
+    <div class="modal enter-wrap" data-modal="enter">
+        <div class="modal__close"></div>
+
+        <div class="enter">
+            <div class="enter__nav">
+                <a href="javascript:void(0)" class="active" data-tab="login">Вход</a>
+                <a href="javascript:void(0)" data-tab="registration">Регистрация</a>
+            </div>
+
+            <div class="enter__body">
+                <form class="enter__tab active" data-tab="login">
+                    <div class="checkout__input">
+                        <div class="form-group">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль">
+                        </div>
+                    </div>
+                    <a href="javacript:void(0)" class="enter__lost" data-modal="reset">Забыли пароль?</a>
+                    <div class="enter__policy">
+                        <a href="javascript:void(0)">Политика безопасности</a>
+                        <a href="javascript:void(0)">Пользовательское соглашение</a>
+                    </div>
+                    <button>Войти</button>
+                </form>
+                <form class="enter__tab" data-tab="registration">
+                    <div class="checkout__input">
+                        <div class="form-group">
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" placeholder="Пароль">
+                        </div>
+                    </div>
+                    <div class="enter__policy">
+                        <a href="javascript:void(0)">Политика безопасности</a>
+                        <a href="javascript:void(0)">Пользовательское соглашение</a>
+                    </div>
+                    <button>Войти</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <div class="modal modal-view" data-modal="view">
         <div class="modal__close"></div>
         <div class="modal__sliders sliders">
