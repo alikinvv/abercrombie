@@ -146,7 +146,7 @@ $('body').on('click', '.view__sizes-list div', (e) => {
 
 $('body').on('click', '.modal__controls button', (e) => {
     e.preventDefault();
-    $(e.currentTarget).addClass('active').html('<svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Товар в корзине</span>');
+    $(e.currentTarget).addClass('active').html('<svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-shop"></use></svg><span>Товар в корзине</span>');
 });
 
 $('body').on('change', '.modal__controls select', (e) => {
@@ -154,7 +154,7 @@ $('body').on('change', '.modal__controls select', (e) => {
 });
 
 $('body').on('click', '.view .modal__controls button', (e) => {
-    $(e.currentTarget).addClass('active').html('<svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-circle"></use></svg><span>Товар в корзине</span>');
+    $(e.currentTarget).addClass('active').html('<svg class="icon"><use xlink:href="img/symbol-defs.svg#icon-shop"></use></svg><span>Товар в корзине</span>');
     $('.add-cart').addClass('active');
 
     setTimeout(() => {

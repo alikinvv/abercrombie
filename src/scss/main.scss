@@ -684,6 +684,7 @@ h2 {
 		left: 10px;
 		font-size: 10px;
 		z-index: 2;
+		fill: $dark;
 	}
 
 	&__badge {
@@ -794,7 +795,7 @@ h2 {
 		}
 
 		svg {
-			font-size: 6px;
+			font-size: 8px;
 			margin-right: 5px;
 			fill: #fff;
 		}
@@ -1171,7 +1172,7 @@ h2 {
 	}
 
 	svg {
-		font-size: 6px;
+		font-size: 8px;
 		fill: #fff;
 	}
 }
@@ -1978,8 +1979,8 @@ h2 {
 		}
 
 		svg {
-			font-size: 6px;
-			margin-right: 5px;
+			font-size: 8px;
+			margin-right: 10px;
 			transition: $trans;
 		}
 	}
@@ -2133,7 +2134,7 @@ h2 {
 				  }
   
 				  svg {
-					  font-size: 6px;
+					  font-size: 9px;
 					  margin-right: 10px;
 					  fill: #fff;
 				  }
@@ -2255,7 +2256,7 @@ h2 {
 
 			svg {
 				font-size: 9px;
-				margin-right: 15px;
+				margin-right: 10px;
 			}
 		}
 
@@ -3066,7 +3067,7 @@ section.item {
 			font-size: 13px;
 
 			svg {
-				font-size: 6px;
+				font-size: 9px;
 				margin-right: 10px;
 			}
 		}
@@ -3248,9 +3249,43 @@ section.item {
 			padding: 42px 20px;
 		}
 
+		&.border {
+			border-top: 1px solid #ccc;
+			padding-top: 20px;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+
 		display: flex;
 		padding: 42px 41px;
 		justify-content: space-between;
+	}
+
+	&__save {
+		background: $light;
+		color: #fff;
+		font-size: 18px;
+		padding: 15px 129px;
+		margin-top: 20px;
+		font-weight: bold;
+		transition: $trans;
+
+		&:hover {
+			background: $dark;
+		}
+	}
+
+	&__links {
+		display: flex;
+
+		a {
+			margin-right: 10px;
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
 	}
 
 	&__col {
