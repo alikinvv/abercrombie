@@ -1122,8 +1122,6 @@ h2 {
 }
 
 .slick-arrow {
-	background: url('../img/circle.svg') no-repeat center rgba(255,255,255,0.5);
-	background-size: 15px;
 	width: 40px;
 	height: 40px;
 	color: transparent;
@@ -1140,10 +1138,14 @@ h2 {
 }
 
 .slick-next {
+	background: url('../img/arrow-right.svg') no-repeat center rgba(255,255,255,0.5);
+	background-size: 15px;
 	right: -1px;
 }
 
 .slick-prev {
+	background: url('../img/arrow-left.svg') no-repeat center rgba(255,255,255,0.5);
+	background-size: 15px;
 	left: 0;
 }
 
@@ -1206,7 +1208,7 @@ h2 {
 			margin-right: 6px;
 			width: 10px;
 			height: 10px;
-			background: url('../img/circle.svg') no-repeat center;
+			background: url('../img/arrow-right.svg') no-repeat center;
 			background-size: contain;
 			display: block;
 		}
@@ -2991,7 +2993,7 @@ section.item {
 			display: none;
 
 			&:checked + label::before {
-				background: url('../img/circle.svg') no-repeat center;
+				background: url('../img/check.svg') no-repeat center;
 				background-size: 13px;
 			}
 		}
